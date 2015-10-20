@@ -51,6 +51,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicLogger.cs" />
+    <Compile Include="CustomizedLogger.cs" />
     <Compile Include="HelloSerilog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
