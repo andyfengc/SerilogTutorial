@@ -5,18 +5,7 @@ namespace SerilogTutorial
 {
     public class HelloSerilog
     {
-        public static void Main(string[] args)
-        {
-            //Hello();
-            // ParameterizedLog();
-            //TemplateLog();
-
-            BasicLogger.Run();
-
-            //CustomizedLogger.Se tLevel();
-        }
-
-        public static void Hello()
+        public static void HelloLog()
         {
             // Create Logger
             var logger = new LoggerConfiguration()
